@@ -83,7 +83,7 @@ jobs:
         with:
           activate-environment: manubot
           environment-file: build/environment.yml
-          auto-activate-base: false
+          auto-activate: false
       - name: Install Spellcheck
         if: env.SPELLCHECK == 'true'
         run: bash ci/install-spellcheck.sh
