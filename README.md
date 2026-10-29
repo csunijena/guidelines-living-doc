@@ -1,6 +1,4 @@
-# Automated scholarly manuscripts on GitHub
-
-<!-- usage note: edit the H1 title above to personalize the manuscript -->
+# Good Practices and Common Pitfalls in the Research and Development of New Electrolytes for Flow Batteries
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20277368.svg)](https://doi.org/10.5281/zenodo.20277368)
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://rfb-data-hub.github.io/guidelines-living-doc/)
@@ -9,10 +7,8 @@
 
 ## Manuscript description
 
-<!-- usage note: edit this section. -->
-
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+A living document on best practices and common pitfalls in the research and development of new electrolytes for flow batteries.
+It is maintained openly by the flow battery community, and contributions are welcome via issues and pull requests.
 
 ## Manubot
 
