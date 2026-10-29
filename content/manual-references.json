@@ -1,22 +1,321 @@
 [
-{
-  "id": "url:https://github.com/manubot/rootstock",
-  "type": "webpage",
-  "URL": "https://github.com/manubot/rootstock",
-  "title": "manubot/rootstock GitHub repository",
-  "container-title": "GitHub",
-  "issued": {
-    "date-parts": [
-      [
-        2019
+  {
+    "id": "us-patent-224404",
+    "type": "patent",
+    "title": "Galvanic Battery",
+    "author": [
+      {
+        "family": "Doyle",
+        "given": "J."
+      }
+    ],
+    "number": "US224404A",
+    "issued": {
+      "date-parts": [
+        [
+          1880,
+          2,
+          10
+        ]
       ]
-    ]
+    },
+    "publisher": "United States Patent Office",
+    "publisher-place": "Washington, DC"
   },
-  "author": [
-    {
-      "given": "Daniel",
-      "family": "Himmelstein"
+  {
+    "id": "us-patent-312802",
+    "type": "patent",
+    "title": "Secondary Battery",
+    "author": [
+      {
+        "family": "Bradley",
+        "given": "C. S."
+      }
+    ],
+    "number": "US312802A",
+    "issued": {
+      "date-parts": [
+        [
+          1885,
+          2,
+          24
+        ]
+      ]
+    },
+    "publisher": "United States Patent Office",
+    "publisher-place": "Washington, DC"
+  },
+  {
+    "id": "de-patent-914264",
+    "type": "patent",
+    "title": "Verfahren zur Speicherung von elektrischer Energie",
+    "author": [
+      {
+        "family": "Kangro",
+        "given": "W."
+      }
+    ],
+    "number": "DE914264C",
+    "issued": {
+      "date-parts": [
+        [
+          1954,
+          6,
+          28
+        ]
+      ]
+    },
+    "publisher": "Deutsches Patent- und Markenamt",
+    "publisher-place": "Munich"
+  },
+  {
+    "id": "thaller-1975",
+    "type": "report",
+    "title": "Electrically Rechargeable Redox Flow Cell",
+    "author": [
+      {
+        "family": "Thaller",
+        "given": "L. H."
+      }
+    ],
+    "number": "NASA TM X-71540",
+    "publisher": "National Aeronautics and Space Administration",
+    "publisher-place": "Washington, DC",
+    "issued": {
+      "date-parts": [
+        [
+          1975
+        ]
+      ]
     }
-  ]
-}
+  },
+  {
+    "id": "wo-2020035138",
+    "type": "patent",
+    "title": "Redox-Active Compounds and Uses Thereof",
+    "author": [
+      {
+        "family": "Geigle",
+        "given": "P."
+      },
+      {
+        "family": "Hartwig",
+        "given": "J."
+      },
+      {
+        "family": "Larionov",
+        "given": "E."
+      },
+      {
+        "family": "Baal",
+        "given": "E."
+      }
+    ],
+    "number": "WO2020035138A1",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          20
+        ]
+      ]
+    },
+    "publisher": "World Intellectual Property Organization"
+  },
+  {
+    "id": "wo-1989005363",
+    "type": "patent",
+    "title": "Vanadium Compound Dissolution Processes",
+    "author": [
+      {
+        "family": "Skyllas-Kazacos",
+        "given": "M."
+      },
+      {
+        "family": "Kazacos",
+        "given": "M."
+      },
+      {
+        "family": "McDermott",
+        "given": "R. J. C."
+      }
+    ],
+    "number": "WO1989005363A1",
+    "issued": {
+      "date-parts": [
+        [
+          1989,
+          6,
+          15
+        ]
+      ]
+    },
+    "publisher": "World Intellectual Property Organization"
+  },
+  {
+    "id": "bard-faulkner-2001",
+    "type": "book",
+    "title": "Electrochemical Methods: Fundamentals and Applications",
+    "author": [
+      {
+        "family": "Bard",
+        "given": "A. J."
+      },
+      {
+        "family": "Faulkner",
+        "given": "L. R."
+      }
+    ],
+    "edition": "2",
+    "publisher": "Wiley",
+    "publisher-place": "New York",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    }
+  },
+  {
+    "id": "zoski-2007",
+    "type": "book",
+    "title": "Handbook of Electrochemistry",
+    "editor": [
+      {
+        "family": "Zoski",
+        "given": "C. G."
+      }
+    ],
+    "edition": "1",
+    "publisher": "Elsevier",
+    "publisher-place": "Amsterdam; Boston",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    }
+  },
+  {
+    "id": "corcuera-2012",
+    "type": "article-journal",
+    "title": "State-of-Charge Monitoring and Electrolyte Rebalancing Methods for the Vanadium Redox Flow Battery",
+    "author": [
+      {
+        "family": "Corcuera",
+        "given": "S."
+      },
+      {
+        "family": "Skyllas-Kazacos",
+        "given": "M."
+      }
+    ],
+    "container-title": "European Chemical Bulletin",
+    "page": "511-519",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    }
+  },
+  {
+    "id": "scifinder-flow-battery",
+    "type": "webpage",
+    "title": "CAS SciFinder-n: Reference search for the exact phrase \"flow battery\"; excluded patents",
+    "URL": "https://scifinder-n.cas.org/search/reference/69de42663a722f7a765347b6/1",
+    "publisher": "CAS",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "github-living-document",
+    "type": "webpage",
+    "title": "GitHub Repository of the Living Document",
+    "URL": "https://github.com/rfb-data-hub/guidelines-living-doc",
+    "container-title": "GitHub",
+    "publisher": "GitHub",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          17
+        ]
+      ]
+    }
+  },
+  {
+    "id": "github-reporting-template",
+    "type": "webpage",
+    "title": "GitHub Repository of the Reporting Template",
+    "URL": "https://github.com/rfb-data-hub/guidelines-reporting-template/",
+    "container-title": "GitHub",
+    "publisher": "GitHub",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          17
+        ]
+      ]
+    }
+  },
+  {
+    "id": "pubchem-hydrogen-cyanide",
+    "type": "webpage",
+    "title": "PubChem Compound Summary for CID 768, Hydrogen Cyanide",
+    "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Hydrogen-Cyanide",
+    "container-title": "PubChem",
+    "publisher": "National Center for Biotechnology Information",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          5
+        ]
+      ]
+    }
+  }
 ]
