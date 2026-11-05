@@ -8,7 +8,7 @@ Amiens
 amphoteric
 analyte
 ANR
-Anthraquinone
+anthraquinone
 anthraquinones
 anthrone
 Anthropic
@@ -68,7 +68,7 @@ elastomeric
 electroanalysis
 electroanalytical
 electrocatalysis
-electrochemical
+Electrochemical
 electrochemically
 electrochemistry
 Electrochimique
@@ -127,7 +127,7 @@ Himmelstein
 HIPOLE
 Holubowitch
 Humboldtstraße
-Hydrotropes
+hydrotropes
 HZB
 ICGM
 Interconversion
@@ -222,7 +222,7 @@ Pre
 pretreatment
 pretreatments
 programmatically
-Propylene
+propylene
 protonated
 PRTR
 pyrazine
@@ -237,7 +237,7 @@ RAC
 RACs
 RAC’s
 RDE
-rebalancing
+Rebalancing
 Reber
 recalibrated
 recoverability
@@ -249,7 +249,7 @@ reproducibility
 reproducibly
 resistive
 Reynard
-RFB
+rfb
 RFBs
 RFBzero
 RFB’s
@@ -294,7 +294,7 @@ VE
 Ventosa
 viologen
 viologens
-Vis
+vis
 Viton
 voltammetry
 volumetrically
