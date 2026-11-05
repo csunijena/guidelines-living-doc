@@ -116,7 +116,7 @@ glovebox
 GmbH
 Goulet
 GPT
-Graphitic
+graphitic
 Guihéneuf
 halide
 HCN
@@ -127,7 +127,7 @@ Himmelstein
 HIPOLE
 Holubowitch
 Humboldtstraße
-hydrotropes
+Hydrotropes
 HZB
 ICGM
 Interconversion
@@ -249,7 +249,7 @@ reproducibility
 reproducibly
 resistive
 Reynard
-rfb
+RFB
 RFBs
 RFBzero
 RFB’s

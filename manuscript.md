@@ -34,8 +34,8 @@ header-includes: |
   <meta name="dc.date" content="2026-11-05" />
   <meta name="citation_publication_date" content="2026-11-05" />
   <meta property="article:published_time" content="2026-11-05" />
-  <meta name="dc.modified" content="2026-11-05T14:03:59+00:00" />
-  <meta property="article:modified_time" content="2026-11-05T14:03:59+00:00" />
+  <meta name="dc.modified" content="2026-11-05T14:39:02+00:00" />
+  <meta property="article:modified_time" content="2026-11-05T14:39:02+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -79,9 +79,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://csunijena.github.io/guidelines-living-doc/" />
   <meta name="citation_pdf_url" content="https://csunijena.github.io/guidelines-living-doc/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://csunijena.github.io/guidelines-living-doc/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://csunijena.github.io/guidelines-living-doc/v/42a9a5f5532fc14db2ae95bd0203d2897dfcde86/" />
-  <meta name="manubot_html_url_versioned" content="https://csunijena.github.io/guidelines-living-doc/v/42a9a5f5532fc14db2ae95bd0203d2897dfcde86/" />
-  <meta name="manubot_pdf_url_versioned" content="https://csunijena.github.io/guidelines-living-doc/v/42a9a5f5532fc14db2ae95bd0203d2897dfcde86/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://csunijena.github.io/guidelines-living-doc/v/75694a5a701fc5c845cd68b95a0666bf55e63095/" />
+  <meta name="manubot_html_url_versioned" content="https://csunijena.github.io/guidelines-living-doc/v/75694a5a701fc5c845cd68b95a0666bf55e63095/" />
+  <meta name="manubot_pdf_url_versioned" content="https://csunijena.github.io/guidelines-living-doc/v/75694a5a701fc5c845cd68b95a0666bf55e63095/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -103,9 +103,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://csunijena.github.io/guidelines-living-doc/v/42a9a5f5532fc14db2ae95bd0203d2897dfcde86/))
+([permalink](https://csunijena.github.io/guidelines-living-doc/v/75694a5a701fc5c845cd68b95a0666bf55e63095/))
 was automatically generated
-from [csunijena/guidelines-living-doc@42a9a5f](https://github.com/csunijena/guidelines-living-doc/tree/42a9a5f5532fc14db2ae95bd0203d2897dfcde86)
+from [csunijena/guidelines-living-doc@75694a5](https://github.com/csunijena/guidelines-living-doc/tree/75694a5a701fc5c845cd68b95a0666bf55e63095)
 on November 5, 2026.
 </em></small>
 
@@ -125,7 +125,7 @@ on November 5, 2026.
   </small>
 
 + **Christian Stolze**
-  <br>
+  ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-5358-7181](https://orcid.org/0000-0001-5358-7181)
     <br>
@@ -170,7 +170,7 @@ on November 5, 2026.
   </small>
 
 + **Fikile Brushett**
-  ^[✉](#correspondence)^<br>
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-7361-6637](https://orcid.org/0000-0002-7361-6637)
     <br>
@@ -179,7 +179,7 @@ on November 5, 2026.
   </small>
 
 + **Michael J. Aziz**
-  ^[✉](#correspondence)^<br>
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-9657-9456](https://orcid.org/0000-0001-9657-9456)
     <br>
@@ -192,8 +192,7 @@ on November 5, 2026.
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/csunijena/guidelines-living-doc/issues)
 or email to
 Marc-Antoni Goulet \<marcantoni.goulet@concordia.ca\>, 
-Fikile Brushett \<brushett@mit.edu\>, 
-Michael J. Aziz \<maziz@harvard.edu\>.
+Christian Stolze \<christian.stolze@uni-jena.de\>.
 
 
 :::
