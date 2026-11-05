@@ -23,6 +23,7 @@ authors:
     initials: CS
     orcid: 0000-0001-5358-7181
     email: christian.stolze@uni-jena.de
+    corresponding: true
     affiliations:
       - Laboratory of Organic and Macromolecular Chemistry (IOMC), Friedrich Schiller University Jena, Humboldtstraße 10, 07743 Jena, Germany
       - Center for Energy and Environmental Chemistry Jena (CEEC Jena), Friedrich Schiller University Jena, Philosophenweg 7a, 07743 Jena, Germany
@@ -60,13 +61,11 @@ authors:
     initials: FB
     orcid: 0000-0002-7361-6637
     email: brushett@mit.edu
-    corresponding: true
     affiliations:
       - Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States of America
   - name: Michael J. Aziz
     initials: MJA
     orcid: 0000-0001-9657-9456
     email: maziz@harvard.edu
-    corresponding: true
     affiliations:
       - Harvard John A. Paulson School of Engineering and Applied Sciences, Cambridge, Massachusetts 02138, United States of America
