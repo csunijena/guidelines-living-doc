@@ -16,6 +16,7 @@ authors:
     initials: MAG
     orcid: 0000-0002-9146-6759
     email: marcantoni.goulet@concordia.ca
+    corresponding: true
     affiliations:
       - Department of Chemical and Materials Engineering, Concordia University, Montreal, Quebec, Canada
   - name: Christian Stolze
@@ -66,6 +67,5 @@ authors:
     initials: MJA
     orcid: 0000-0001-9657-9456
     email: maziz@harvard.edu
-    corresponding: true
     affiliations:
       - Harvard John A. Paulson School of Engineering and Applied Sciences, Cambridge, Massachusetts 02138, United States of America

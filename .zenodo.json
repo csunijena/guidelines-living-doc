@@ -1,71 +1,60 @@
 {
-  "creators": [
-    {
-      "name": "Goulet, Marc-Antoni",
-      "orcid": "0000-0002-9146-6759",
-      "affiliation": "Concordia University, Canada"
-    },
-    {
-      "name": "Stolze, Christian",
-      "orcid": "0000-0001-5358-7181",
-      "affiliation": "Friedrich Schiller University Jena, Germany"
-    },
-    {
-      "name": "Guihéneuf, Solène",
-      "orcid": "0000-0003-0164-5436",
-      "affiliation": "Kemiwatt, France"
-    },
-    {
-      "name": "Le Vot, Steven",
-      "orcid": "0000-0001-8752-7590",
-      "affiliation": "University of Montpellier, CNRS, ENSCM, France"
-    },
-    {
-      "name": "Ventosa, Edgar",
-      "orcid": "0000-0002-8993-4285",
-      "affiliation": "University of Burgos, Spain"
-    },
-    {
-      "name": "Schubert, Ulrich S.",
-      "orcid": "0000-0003-4978-4670",
-      "affiliation": "Friedrich Schiller University Jena, Germany"
-    },
-    {
-      "name": "Brushett, Fikile",
-      "orcid": "0000-0002-7361-6637",
-      "affiliation": "Massachusetts Institute of Technology, USA"
-    },
-    {
-      "name": "Aziz, Michael J.",
-      "orcid": "0000-0001-9657-9456",
-      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences, Harvard University, USA"
-    }
-  ],
   "title": "Good Practices and Common Pitfalls in the Research and Development of New Electrolytes for Flow Batteries",
-  "description": "A living document on best practices and common pitfalls in flow battery electrolyte research and development for public discussion and peer-reviewed changes by anyone in the flow battery community.",
   "upload_type": "publication",
-  "publication_type": "workingpaper",
-  "access_right": "open",
-  "license": "cc-by-4.0",
+  "publication_type": "article",
+  "language": "eng",
+  "license": "CC-BY-4.0",
   "keywords": [
-    "redox flow batteries",
+    "Redox flow batteries",
     "redox-active compounds",
     "electrolytes",
     "flow cells",
     "lifetime testing",
-    "living document"
+    "recommendations",
+    "experimental protocols",
+    "practical guidelines"
   ],
-  "language": "eng",
-  "related_identifiers": [
+  "description": "<p>Living document version of &quot;Good Practices and Common Pitfalls in the Research and Development of New Electrolytes for Flow Batteries&quot;, maintained openly by the flow battery community using the Manubot workflow. This archive is created automatically whenever a release is published on GitHub.</p>",
+  "creators": [
     {
-      "identifier": "https://github.com/rfb-data-hub/guidelines-living-doc",
-      "relation": "isSupplementedBy",
-      "scheme": "url"
+      "name": "Goulet, Marc-Antoni",
+      "orcid": "0000-0002-9146-6759",
+      "affiliation": "Department of Chemical and Materials Engineering, Concordia University, Montreal, Quebec, Canada"
     },
     {
-      "identifier": "https://rfb-data-hub.github.io/guidelines-living-doc/",
-      "relation": "isSupplementedBy",
-      "scheme": "url"
+      "name": "Stolze, Christian",
+      "orcid": "0000-0001-5358-7181",
+      "affiliation": "Friedrich Schiller University Jena; Helmholtz-Zentrum Berlin für Materialien und Energie (HZB)"
+    },
+    {
+      "name": "Guihéneuf, Solène",
+      "orcid": "0000-0003-0164-5436",
+      "affiliation": "Kemiwatt, Rennes, France"
+    },
+    {
+      "name": "Le Vot, Steven",
+      "orcid": "0000-0001-8752-7590",
+      "affiliation": "ICGM, University of Montpellier, CNRS, ENSCM, Montpellier, France; RS2E, CNRS, Amiens, France"
+    },
+    {
+      "name": "Ventosa, Edgar",
+      "orcid": "0000-0002-8993-4285",
+      "affiliation": "Department of Chemistry, University of Burgos, Burgos, Spain"
+    },
+    {
+      "name": "Schubert, Ulrich S.",
+      "orcid": "0000-0003-4978-4670",
+      "affiliation": "Friedrich Schiller University Jena; Helmholtz-Zentrum Berlin für Materialien und Energie (HZB)"
+    },
+    {
+      "name": "Brushett, Fikile",
+      "orcid": "0000-0002-7361-6637",
+      "affiliation": "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts, USA"
+    },
+    {
+      "name": "Aziz, Michael J.",
+      "orcid": "0000-0001-9657-9456",
+      "affiliation": "Harvard John A. Paulson School of Engineering and Applied Sciences, Cambridge, Massachusetts, USA"
     }
   ]
 }

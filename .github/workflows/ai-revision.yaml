@@ -40,11 +40,11 @@ jobs:
         shell: bash --login {0}
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with: 
           ref: ${{ inputs.branch }} 
       - name: Install environment
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
       - name: Install Manubot AI revision dependencies
