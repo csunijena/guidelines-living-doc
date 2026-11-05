@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/csunijena/guidelines-living-doc/tree/gh-pages) branch hosts the contents of this directory at <https://csunijena.github.io/guidelines-living-doc/>.
-The permalink for this webpage version is <https://csunijena.github.io/guidelines-living-doc/v/75694a5a701fc5c845cd68b95a0666bf55e63095/>.
+The permalink for this webpage version is <https://csunijena.github.io/guidelines-living-doc/v/f08a9b189081487ee6cebde70ad43b1b18a01a44/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://csunijena.github.io/guidelines-living-doc/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`75694a5a701fc5c845cd68b95a0666bf55e63095`](https://github.com/csunijena/guidelines-living-doc/commit/75694a5a701fc5c845cd68b95a0666bf55e63095).
+[`f08a9b189081487ee6cebde70ad43b1b18a01a44`](https://github.com/csunijena/guidelines-living-doc/commit/f08a9b189081487ee6cebde70ad43b1b18a01a44).
