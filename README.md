@@ -5,112 +5,152 @@
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://rfb-data-hub.github.io/guidelines-living-doc/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/rfb-data-hub/guidelines-living-doc/workflows/Manubot/badge.svg)](https://github.com/rfb-data-hub/guidelines-living-doc/actions)
 
-## Manuscript description
+**Read it:** [HTML](https://rfb-data-hub.github.io/guidelines-living-doc/) ·
+[PDF](https://rfb-data-hub.github.io/guidelines-living-doc/manuscript.pdf) ·
+[Cite it (DOI)](https://doi.org/10.5281/zenodo.20277368)
 
-A living document on best practices and common pitfalls in the research and development of new electrolytes for flow batteries.
-It is maintained openly by the flow battery community, and contributions are welcome via issues and pull requests.
+## What this is
 
-## Manubot
+This repository hosts the **living document** of the review article *"Good
+Practices and Common Pitfalls in the Research and Development of New
+Electrolytes for Flow Batteries"* (accepted for publication by *Chemical
+Reviews*).
 
-<!-- usage note: do not edit this section -->
+The article gives structured, practical guidance for researchers working with
+novel redox flow battery electrolytes, organized around four core activities:
 
-Manubot is a system for writing scholarly manuscripts via GitHub.
-Manubot automates citations and references, versions manuscripts using git, and enables collaborative writing via GitHub.
-An [overview manuscript](https://greenelab.github.io/meta-review/ "Open collaborative writing with Manubot") presents the benefits of collaborative writing with Manubot and its unique features.
-The [rootstock repository](https://git.io/fhQH1) is a general purpose template for creating new Manubot instances, as detailed in [`SETUP.md`](SETUP.md).
-See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
+1. **Electrolyte formulation and physicochemical preparation**
+2. **Electrolyte characterization** (electroanalytical screening, from dilute
+   cyclic voltammetry to operationally relevant conditions)
+3. **Cell hardware selection and flow cell assembly**
+4. **Performance and lifetime testing protocols** (symmetric vs. full cell,
+   potentiostatic cycling, reliable capacity-fade data)
 
-Please open [an issue](https://git.io/fhQHM) for questions related to Manubot usage, bug reports, or general inquiries.
+Its essence is condensed into **ten practical recommendations** (Section 6).
+A companion [reporting template](https://github.com/rfb-data-hub/guidelines-reporting-template)
+proposes a checklist for reporting these details in publications' supporting
+information.
 
-### Repository directories & files
+## Why a living document?
 
-The directories are as follows:
+The guidelines represent the view of a small group of researchers — but they
+should evolve with the entire field. So instead of freezing them in a journal
+PDF, the article continues here as an open, community-owned document:
 
-+ [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references.
-  See [`USAGE.md`](USAGE.md) for more information.
-+ [`output`](output) contains the outputs (generated files) from Manubot including the resulting manuscripts.
-  You should not edit these files manually, because they will get overwritten.
-+ [`webpage`](webpage) is a directory meant to be rendered as a static webpage for viewing the HTML manuscript.
-+ [`build`](build) contains commands and tools for building the manuscript.
-+ [`ci`](ci) contains files necessary for deployment via continuous integration.
+- **Traceable:** every change is a git commit — who, what, when, and why.
+- **Peer-reviewed in the open:** proposed changes are discussed publicly on
+  pull requests, before (or instead of) becoming part of the document.
+- **Self-building:** the [Manubot](https://manubot.org) workflow turns the
+  markdown sources into a professionally typeset HTML/PDF/DOCX manuscript on
+  every merged change — citations and references are managed automatically
+  from DOIs.
+- **Citable:** official versions are archived on Zenodo; the concept DOI
+  [10.5281/zenodo.20277368](https://doi.org/10.5281/zenodo.20277368) always
+  resolves to the latest version.
 
-### Local execution
+The goal: a community-wide consensus on how flow battery electrolytes should
+be characterized, tested, and reported.
 
-The easiest way to run Manubot is to use [continuous integration](#continuous-integration) to rebuild the manuscript when the content changes.
-If you want to build a Manubot manuscript locally, install the [conda](https://conda.io) environment as described in [`build`](build).
-Then, you can build the manuscript on POSIX systems by running the following commands from this root directory.
+## Contributing
 
-```sh
-# Activate the manubot conda environment (assumes conda version >= 4.4)
+No write access needed — anyone can contribute from a free GitHub account.
+
+### Just a thought, question, or criticism?
+
+Open an [issue](https://github.com/rfb-data-hub/guidelines-living-doc/issues).
+Suggestions, pointing out errors, and discussing existing recommendations are
+all valuable and need no git skills.
+
+### Proposing a concrete change (pull request)
+
+```bash
+# 1. Fork the repository via the "Fork" button (once)
+# 2. Clone your fork and enter the repository
+git clone https://github.com/<your-username>/guidelines-living-doc.git
+cd guidelines-living-doc
+
+# 3. Create a branch for one topic (keep changes focused)
+git checkout -b clarify-electrolyte-concentration
+
+# 4. Edit the relevant markdown file in content/ ... then commit and push
+git add content/
+git commit -m "Clarify recommended concentration range for CV screening"
+git push origin clarify-electrolyte-concentration
+```
+
+GitHub will offer to open a **pull request** from the pushed branch — do that,
+and describe the *why* of your change. A CI bot immediately builds the
+manuscript with your change and reports success or failure (e.g., broken
+citations) right on the pull request.
+
+The community discusses and refines the proposal in the open on the pull
+request. Once consensus is reached, a maintainer merges it: the live
+manuscript is rebuilt automatically and the change becomes part of the
+document — permanently attributed to you.
+
+### Writing conventions (the 60-second version)
+
+- One markdown file per manuscript section in [`content/`](content)
+  (e.g., [`04.electrolyte-characterization.md`](content)), prefixed with their
+  order in the document.
+- New literature is cited inline as `[@doi:10.1021/example]`; Manubot fetches
+  and formats the reference automatically. References without a DOI go into
+  [`content/manual-references.json`](content/manual-references.json).
+- Figures live in [`content/images/`](content/images), named
+  `figN-short-title.png` with the caption and a `{#fig:name}` label in the
+  markdown.
+- Title, author list, and affiliations are set in
+  [`content/metadata.yaml`](content/metadata.yaml).
+- Math containing `{` must be spaced (`{ {math}}`) to avoid template
+  conflicts.
+
+More detail: [`USAGE.md`](USAGE.md) and the
+[Manubot docs](https://manubot.readthedocs.io).
+
+### Building locally (optional)
+
+CI builds every pull request, so a local build is not required. If you want
+one anyway:
+
+```bash
+conda env create --file build/environment.yml
 conda activate manubot
-
-# Build the manuscript, saving outputs to the output directory
-bash build/build.sh
-
-# At this point, the HTML & PDF outputs will have been created. The remaining
-# commands are for serving the webpage to view the HTML manuscript locally.
-# This is required to view local images in the HTML output.
-
-# Configure the webpage directory
-manubot webpage
-
-# You can now open the manuscript webpage/index.html in a web browser.
-# Alternatively, open a local webserver at http://localhost:8000/ with the
-# following commands.
-cd webpage
-python -m http.server
+bash build/build.sh   # outputs land in output/
 ```
 
-Sometimes it's helpful to monitor the content directory and automatically rebuild the manuscript when a change is detected.
-The following command, while running, will trigger both the `build.sh` script and `manubot webpage` command upon content changes:
+## Releases and citations
 
-```sh
-bash build/autobuild.sh
-```
+- **Merged pull request** → live site and PDF update immediately; the full
+  change history is visible via git.
+- **Official release** (a GitHub release on this repository) → Zenodo
+  automatically archives that state and mints a new version DOI under the
+  concept DOI above. Releases are the official "published versions" of the
+  living document, cut by the maintainers.
 
-### Continuous Integration
+## Repository layout
 
-Whenever a pull request is opened, CI (continuous integration) will test whether the changes break the build process to generate a formatted manuscript.
-The build process aims to detect common errors, such as invalid citations.
-If your pull request build fails, see the CI logs for the cause of failure and revise your pull request accordingly.
-
-When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/rfb-data-hub/guidelines-living-doc/tree/gh-pages) and [`output`](https://github.com/rfb-data-hub/guidelines-living-doc/tree/output) branches.
-The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
-
-+ **HTML manuscript** at https://rfb-data-hub.github.io/guidelines-living-doc/
-+ **PDF manuscript** at https://rfb-data-hub.github.io/guidelines-living-doc/manuscript.pdf
-
-For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml).
++ [`content/`](content) — manuscript source: markdown sections, images,
+  citations, metadata
++ [`output/`](output) and `gh-pages` branch — built manuscripts (generated,
+  don't edit)
++ [`build/`](build) — build environment and pandoc configuration
++ [`.github/workflows/`](.github/workflows) — CI: build, checks, deployment
++ `.zenodo.json` — release metadata for Zenodo archival
 
 ## License
-
-<!--
-usage note: edit this section to change the license of your manuscript or source code changes to this repository.
-We encourage users to openly license their manuscripts, which is the default as specified below.
--->
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License%20All-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 [![License: CC0 1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-Except when noted otherwise, the entirety of this repository is licensed under a CC BY 4.0 License ([`LICENSE.md`](LICENSE.md)), which allows reuse with attribution.
-Please attribute by linking to https://github.com/rfb-data-hub/guidelines-living-doc.
+Except for code and data files (dual-licensed CC0, see the glob patterns in
+[`LICENSE.md`](LICENSE.md)), the entirety of this repository is licensed under
+CC BY 4.0. Please attribute by linking to
+<https://github.com/rfb-data-hub/guidelines-living-doc>.
 
-Since CC BY is not ideal for code and data, certain repository components are also released under the CC0 1.0 public domain dedication ([`LICENSE-CC0.md`](LICENSE-CC0.md)).
-All files matched by the following glob patterns are dual licensed under CC BY 4.0 and CC0 1.0:
+## Built with Manubot
 
-+ `*.sh`
-+ `*.py`
-+ `*.yml` / `*.yaml`
-+ `*.json`
-+ `*.bib`
-+ `*.tsv`
-+ `.gitignore`
-
-All other files are only available under CC BY 4.0, including:
-
-+ `*.md`
-+ `*.html`
-+ `*.pdf`
-+ `*.docx`
-
-Please open [an issue](https://github.com/rfb-data-hub/guidelines-living-doc/issues) for any question related to licensing.
+This document is written and published with [Manubot](https://manubot.org),
+a workflow for open, collaborative scholarly publishing on GitHub, based on
+its [rootstock](https://github.com/manubot/rootstock) template. Manuscript
+building, citation management, and versioning are documented in
+[`USAGE.md`](USAGE.md).
